@@ -1,5 +1,4 @@
-import React from 'react';
-import { IconProps } from '../types';
+import type { IconProps } from '../types';
 
 const UilDumbbell = ({
   color = "currentColor",

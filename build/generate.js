@@ -29,8 +29,7 @@ uniconsConfig.forEach((icon) => {
   });
   const svgPath = $("path").attr("d");
 
-  const template = `import React from 'react';
-import { IconProps } from '../types';
+  const template = `import type { IconProps } from '../types';
 
 const ${name} = ({
   color = "currentColor",

@@ -1,5 +1,4 @@
-import React from 'react';
-import { IconProps } from '../types';
+import type { IconProps } from '../types';
 
 const Uil500px = ({
   color = "currentColor",
